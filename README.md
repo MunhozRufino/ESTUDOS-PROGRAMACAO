@@ -1,2 +1,3 @@
-# ESTUDOS-PROGRAMACAO
+# ESTUDOS-PROGRAMACAO!
+Repositório criado durante aula.
  
