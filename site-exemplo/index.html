@@ -202,7 +202,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab, voluptatibus 
     <h1>Youtube</h1>
     <p>Claro que posso</p>
     <!--Para aparecer a imagem insira random logo no vinal da URL após a "/" "-->
-    <img src="https://source.unsplash.com/ra" alt="">
+    <img src="https://sourc.unsplash.com/ra" alt="">
 </a>
 <hr>
 
@@ -221,3 +221,106 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ab, voluptatibus 
 <h1>Como navegar pelos caminhos?</h1>
 
 <a href="../outros/outros.html">outros arquivos</a>
+<hr>
+
+<!--Criando Tabelas-->
+
+<h1>Criando Tabelas</h1>
+
+<table>
+
+    <caption>Tabela de Pessoas por Idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Mike</td>
+            <td>35</td>
+        </tr>
+
+        <tr>
+            <td>Diego</td>
+            <td>29</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>2 pessoas</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<!--Tabela mais complexa-->
+<h1>Tabela mais complexa</h1>
+
+<table>
+    <caption><h3>Produzidos X Vendidos por loja</h3></caption>
+
+    <colgroup>
+        <col style="background-color: palegreen">
+        <col span="2" style="background-color: red"> 
+        <col span="2" style="background-color: blue">
+    </colgroup>
+
+    <thead>
+        
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup"> <h2>Afonso Pena</h2></th>
+            <th colspan="2" scope="colgroup">Anônia Pereira</th>
+        </tr>
+        <tr>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <th scope="row" style="color: black">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>60</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <th scope="row" style="color: black">Baldes</th>
+            <td>45</td>
+            <td>34</td>
+            <td>42</td>
+            <td>37</td>
+        </tr>    
+
+    </tbody>
+
+</table>
+<hr>
+
+<!--Aula HEAD-->
+<h1>Aula HEAD</h1>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--Codificação de caracteres especiais-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Portabilidade para dispositivos mobiles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<link rel="stylesheet" href="">
+
