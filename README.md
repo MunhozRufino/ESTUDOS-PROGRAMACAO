@@ -1,5 +1,3 @@
 # ESTUDOS-PROGRAMACAO!
-Repositório criado durante aula
-
-Praticando alterações  no github
+Repositório destinado a estudos do curso da ROCKETSEAT.
  
