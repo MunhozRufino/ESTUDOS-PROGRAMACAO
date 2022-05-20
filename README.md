@@ -1,3 +1,3 @@
 # ESTUDOS-PROGRAMACAO!
-Repositório destinado a estudos do curso da ROCKETSEAT.
+Repositório criado para estudos práticos e teóricos do curso da ROCKETSEAT.
  
